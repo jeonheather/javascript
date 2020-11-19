@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java script 02-01</title>
+
+    <script>
+        //     window.addEventListener
+        //("DOMEContentLoaded", function() {
+            var oct = 015;
+            var hex = 0x15;
+            var condition = true;
+        //자바스크립트 변수는 데이터 타입 구분을 하지 않는다.
+        // "+"는 문자열 연결 연산자이다.
+            document.write("8진수 015는 십진수로 " + oct + "<br>");
+            document.write("16진수 0x15는 십진수로" + hex + "<br>");
+            document.write("condition은" + condition + "<br>");
+            document.write('문자열 : 단일인용부호로도 표현' + "<br>");
+            document.write("그녀는 \"누구세요\"라고 했습니다.");
+        //});
+        
+        // 이스케이프 문자 : 문자열 내에서 특정한 문자를 출력하기 위한 문자
+        // 이스케이프 문자는 '\' 기호와 함께 사용함
+        // \b : 백스페이스
+        // \t : 수평 탭*
+        // \v : 수직 탭
+        // \n : 개행*
+        // \r : 리턴
+        // \f : 폼 피드
+        // \' : 홑 따옴표*
+        // \" : 쌍 따옴표*
+        // \\ : 역 슬래쉬*
+        // \0 : NULL 문자
+        // \xXX : Latin-1 문자, 16진수
+        // \uXXXX : Unicode 문자, 16진수
+        // UTF-8, UTF-16, UTF-32
+    
+    
+    console.log("asdfsgf\b\b\b");
+    console.log("asd\t\tfsg\tf");
+    console.log("as\ndf\nsg\nf");
+    console.log("\"asd\"f\"sg\"f");
+    console.log('"asd"f"sg"f');
+    console.log("\'asd\'fs\'gf\'");
+    console.log("'asd'fs'gf'");
+    console.log("\\as\\df\\sg\\f");
+    console.log("'as'dfsg\"as\"sga");
+        </script>
+</head>
+<body>
+
+</body>
+</html>
